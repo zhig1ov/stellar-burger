@@ -1,0 +1,82 @@
+.order__item {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  border-radius: 40px;
+  background: #1C1C21;
+  min-height: 48px;
+  font-family: 'Jet Brains Mono';
+  font-size: 16px;
+  line-height: 24px;
+  color: #F2F2F3;
+  width: 100%;
+}
+
+.orders__info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.list {
+  list-style-type: none;
+  padding-left: 0;
+  display: flex;
+  z-index: -1;
+}
+
+.list__item {
+  margin-right: -20px;
+  position: relative;
+}
+
+.icon {
+  width: 64px;
+  height: 64px;
+  border: double 2px transparent;
+  background-image: linear-gradient(rgba(19,19,22,1),rgba(19,19,22,1)), radial-gradient(#801AB2,#4C4CFF);
+  border-image-slice: 20;
+  border-radius: 50%;
+  background-clip: content-box, border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.overlay {
+  background: rgba(19,19,22, .6);
+  width: 62px;
+  height: 62px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  z-index: 3;
+}
+
+.element__price {
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-end;
+  text-align: right;
+  font-family: 'Iceland';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 24px;
+  gap: 8px
+}
+
+.status_color_red {
+  color: #E52B1A;
+}
+
+.status_color_white {
+  color: #F2F2F3;
+}
+
+.status_color_green {
+  color: #00CCCC;
+}

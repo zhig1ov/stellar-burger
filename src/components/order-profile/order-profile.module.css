@@ -1,0 +1,9 @@
+.order {
+  max-width: 790px;
+}
+
+.order__link {
+  text-decoration: none;
+  color: #F2F2F3;
+}
+

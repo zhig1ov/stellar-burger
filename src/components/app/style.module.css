@@ -1,0 +1,23 @@
+.App {
+  text-align: center;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  min-width: 1024px;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.container {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  flex-grow: 1;
+  flex-direction: column;
+  text-align: center;
+}
+
+
+
