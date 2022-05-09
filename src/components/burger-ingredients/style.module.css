@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+}
+
+.card__container {
+  overflow-y: scroll;
+  max-height: 600px;
+  max-width: 600px;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+  height: 300px;
+}
+
+::-webkit-scrollbar-track {
+  background: #2F2F37;
+  height: 300px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #8585AD;
+  border: 2px solid #2F2F37;
+  border-radius: 6px;
+}

@@ -1,0 +1,39 @@
+.header {
+  display: flex;
+  justify-content: center;
+}
+
+.header__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-width: 1240px;
+}
+
+.header__nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav__container {
+  display: flex;
+}
+
+.nav__element {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: rgba(133, 133, 173, 1);
+}
+
+.nav__element:first-child {
+  padding-left: 0;
+}
+
+.nav__element:last-child {
+  padding-right: 0px;
+}
+
+.active {
+  color: rgba(242, 242, 243, 1);
+}

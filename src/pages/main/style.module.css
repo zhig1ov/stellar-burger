@@ -1,0 +1,4 @@
+.main__container {
+  display: flex;
+  grid-column-gap: 40px;
+}
